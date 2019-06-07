@@ -2,7 +2,7 @@ import React from 'react'
 import App, { Container } from 'next/app'
 import GlobalStyles from '../global/GlobalStyles'
 // Works, but gives FOUT
-import { typeface } from 'typeface-source-sans-pro'
+// import { typeface } from 'typeface-source-sans-pro'
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
